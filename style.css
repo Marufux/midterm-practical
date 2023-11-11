@@ -15,3 +15,51 @@ font-family: 'DM Serif Display', serif;
 font-family: 'Poppins', sans-serif; */
 
 /* Alumni Sans Inline One  */
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+
+/* home page /////////////// */
+header {
+  background-color: greenyellow;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+header img {
+  position: absolute;
+  top: -62px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffc1c1;
+  padding: 5px;
+  transform: scale(1.2);
+}
+/* home page  ///////////////*/
