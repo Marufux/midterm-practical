@@ -138,3 +138,49 @@ nav a:hover {
 /* content container  */
 
 /* home page  ///////////////*/
+
+/* contact page /////////  */
+.services-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.service-box {
+  width: 200px;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.service-box img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.order-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-button:hover {
+  background-color: #45a049;
+}
+
+/* contact page /////////  */
