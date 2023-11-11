@@ -199,6 +199,37 @@ nav a:hover {
 }
 
 /* contact page /////////  */
+.contact-form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.response {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.contact-name input {
+  width: 100%;
+}
+/* contact page /////////  */
 
 /* footer  */
 .footer {

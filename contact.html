@@ -42,6 +42,18 @@
       </nav>
     </header>
     <!-- navbar  -->
+  <body>
+    <div class="contact-form">
+        <form class="contact-name" onsubmit="submitForm(event)">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name-con" name="name" required /><br /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+        <div class="response" id="response"></div>
+      </div>
+      <script src="contact.js"></script>
   </body>
   <footer class="footer">
     <div class="footer-content">
