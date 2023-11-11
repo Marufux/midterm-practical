@@ -69,11 +69,29 @@ nav a:hover {
 .welcome-section {
   text-align: center;
   padding: 50px;
+  height: 50px;
 }
 
-.welcome-section h1 {
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.welcome img {
+  position: relative;
+  top: 20px;
+}
+
+.welcome h1 {
   font-size: 36px;
   color: #333;
+  margin-right: 20px; /* Adjust spacing between h1 and img */
+}
+
+.welcome img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 .welcome-section p {
@@ -90,6 +108,14 @@ nav a:hover {
   padding: 20px;
   margin-bottom: 30px;
   align-items: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.content:hover {
+  background-color: #e0e0e0;
 }
 
 .content img {
@@ -104,6 +130,7 @@ nav a:hover {
 }
 
 #home-content {
+  margin-top: 20px;
   text-align: center;
   color: rgb(139, 4, 4);
 }
